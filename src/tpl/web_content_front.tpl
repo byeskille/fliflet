@@ -2,7 +2,7 @@
     <a href="." id="regen" class="regen">regen-graphics</a>
     <section class="panels">
 
-      <!--canvas
+      <canvas
         class="chart timeline"
         data-ajax="timeline"
         data-aggregate="mean"
@@ -22,11 +22,14 @@
         data-direction="IO"
         data-scale="fifletY"
         data-description="Politidirektoratet, utvikling over tid (median)."
+        data-milestone-label="NRK klager på forsinkelser|POD svarer jou2pub skal max 5"
+        data-milestone-x-value="2016-07|2016-09"
+        data-milestone-y-value="70|70"
         width="1800"
         height="900">
-      </canvas -->
+      </canvas >
 
-      <canvas
+      <!--canvas
         class="chart timeline"
         data-ajax="timeline"
         data-aggregate="mean"
@@ -108,7 +111,7 @@
         data-description="Gjennomsnittlig ant. virkedager mellom dokumentdato og journalføring, januar 2015 - august 2016"
         width="1800"
         height="900">
-      </canvas>
+      </canvas-->
 
       <hr />
 
