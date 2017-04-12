@@ -1,7 +1,7 @@
 server {
 
     listen  80;
-    root /srv/fliflet/www;
+    root /srv/fiflet/www;
     index index.php index.html
     server_name fliflet.dev;
 
