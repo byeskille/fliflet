@@ -2,6 +2,16 @@
   class="chart timeline"
   data-ajax="timeline"
   data-aggregate="mean"
+  data-supplier="164"
+  data-description="Politidirektoratet, gjennomsnittlig antall virkedager mellom journaldato og publiseringsdato"
+  width="1800"
+  height="900">
+</canvas>
+<!--
+<canvas
+  class="chart timeline"
+  data-ajax="timeline"
+  data-aggregate="mean"
   data-supplier="77"
   data-description="Barne- og likestillingsdepartementet, gjennomsnittlig antall virkedager mellom journaldato og publiseringsdato"
   width="1800"
@@ -147,7 +157,18 @@
   width="1800"
   height="900">
 </canvas>
+-->
+<canvas
+  class="chart timeline"
+  data-ajax="timeline"
+  data-aggregate="median"
+  data-supplier="77"
+  data-description="Politidirektoratet, antall virkedager (median) mellom journaldato og publiseringsdato"
+  width="1800"
+  height="900">
+</canvas>
 
+<!--
 <canvas
   class="chart timeline"
   data-ajax="timeline"
@@ -296,4 +317,4 @@
   data-description="Kommunal- og moderniseringsdepartementet, antall virkedager (median) mellom journaldato og publiseringsdato"
   width="1800"
   height="900">
-</canvas>
+</canvas> -->

@@ -1,6 +1,6 @@
 <div class="small">
 
-  <canvas
+<!--  <canvas
     class="chart timeline"
     data-ajax="timeline"
     data-aggregate="mean"
@@ -724,4 +724,27 @@
   data-description="Kommunal- og moderniseringsdepartementet, antall virkedager (median) mellom journaldato og publiseringsdato, inngående korr."
   width="1800"
   height="900">
-</canvas>
+</canvas> -->
+<canvas
+    class="chart timeline"
+    data-ajax="timeline"
+    data-aggregate="mean"
+    data-supplier="164"
+    data-direction="I"
+    data-suffix="small"
+    data-scale="fifletY_small"
+    data-description="Politidirektoratet, gjennomsnitt, inngående korr."
+    width="1800"
+    height="900">
+  </canvas>
+
+  <canvas
+    class="chart timeline"
+    data-ajax="timeline"
+    data-aggregate="median"
+    data-supplier="164"
+    data-direction="I"
+    data-description="Politidirektoratet, antall virkedager (median) mellom journaldato og publiseringsdato, inngående korr."
+    width="1800"
+    height="900">
+  </canvas>

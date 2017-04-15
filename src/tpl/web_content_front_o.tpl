@@ -4,6 +4,20 @@
     class="chart timeline"
     data-ajax="timeline"
     data-aggregate="mean"
+    data-supplier="164"
+    data-direction="O"
+    data-suffix="small"
+    data-scale="fifletY_small"
+    data-description="Politidirektoratet, gjennomsnitt, utgående korr."
+    width="1800"
+    height="900">
+  </canvas>
+
+  <!--
+  <canvas
+    class="chart timeline"
+    data-ajax="timeline"
+    data-aggregate="mean"
     data-supplier="77"
     data-direction="O"
     data-suffix="small"
@@ -361,9 +375,23 @@
   width="1800"
   height="900">
 </canvas>
+-->
 
 <div class="small">
 
+  <canvas
+    class="chart timeline"
+    data-ajax="timeline"
+    data-aggregate="median"
+    data-supplier="164"
+    data-direction="O"
+    data-suffix="small"
+    data-scale="fifletY_small"
+    data-description="Politidirektoratet, median, utgående korr."
+    width="1800"
+    height="900">
+  </canvas>
+  <!--
   <canvas
     class="chart timeline"
     data-ajax="timeline"
@@ -558,9 +586,21 @@
     width="1800"
     height="900">
   </canvas>
+-->
 
 </div>
 
+<canvas
+  class="chart timeline"
+  data-ajax="timeline"
+  data-aggregate="median"
+  data-supplier="164"
+  data-direction="O"
+  data-description="Politidirektoratet, antall virkedager (median) mellom journaldato og publiseringsdato, utgående korr."
+  width="1800"
+  height="900">
+</canvas>
+<!--
 <canvas
   class="chart timeline"
   data-ajax="timeline"
@@ -725,3 +765,4 @@
   width="1800"
   height="900">
 </canvas>
+-->
