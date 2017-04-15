@@ -10,6 +10,9 @@
         data-direction="IO"
         data-scale="fifletY"
         data-description="Politidirektoratet, utvikling over tid (gjennomsnitt)."
+        data-milestone-label="NRK klager|POD svarer max 5"
+        data-milestone-x-value="2016-07|2016-09"
+        data-milestone-y-value="70|70"
         width="1800"
         height="900">
       </canvas>
@@ -22,7 +25,7 @@
         data-direction="IO"
         data-scale="fifletY"
         data-description="Politidirektoratet, utvikling over tid (median)."
-        data-milestone-label="NRK klager på forsinkelser|POD svarer jour2pub skal max 5"
+        data-milestone-label="NRK klager|POD svarer max 5"
         data-milestone-x-value="2016-07|2016-09"
         data-milestone-y-value="70|70"
         width="1800"
